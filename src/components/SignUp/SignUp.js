@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import FromInput from "../../components/form-input/FromInput";
-import Button from "../../components/Button/Button";
+import FormInput from "../form-input/FormInput";
+import Button from "../Button/Button";
 
 import {
   createAuthUserWithEmailAndPassword,
@@ -59,7 +59,7 @@ const SignUp = () => {
       <h2>Don't have an account</h2>
       <span>Sign up with your email and password</span>
       <form onSubmit={handleSubmit}>
-        <FromInput
+        <FormInput
           label="Name"
           onChange={handleChange}
           type="text"
@@ -68,7 +68,7 @@ const SignUp = () => {
           required
         />
 
-        <FromInput
+        <FormInput
           label="Email"
           onChange={handleChange}
           type="email"
@@ -77,7 +77,7 @@ const SignUp = () => {
           required
         />
 
-        <FromInput
+        <FormInput
           label="Password"
           onChange={handleChange}
           type="password"
@@ -86,7 +86,7 @@ const SignUp = () => {
           required
         />
 
-        <FromInput
+        <FormInput
           label="Confirm Password"
           onChange={handleChange}
           type="password"

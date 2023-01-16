@@ -1,7 +1,7 @@
 import React from "react";
 import "./formInput.styles.scss";
 
-const FromInput = ({ label, ...inputProps }) => {
+const FormInput = ({ label, ...inputProps }) => {
   return (
     <div className="group">
       <input className="form-input" {...inputProps} />
@@ -19,4 +19,4 @@ const FromInput = ({ label, ...inputProps }) => {
   );
 };
 
-export default FromInput;
+export default FormInput;
