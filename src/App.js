@@ -3,10 +3,8 @@ import Navigation from "./routes/Navigation/Navigation";
 import Home from "./routes/Home/Home";
 import Authentication from "./routes/Authentication/Authentication";
 import Contact from "./routes/Contact/Contact";
+import Shop from "./routes/Shop/Shop";
 
-const Shop = () => {
-  return <h1>Shopping Page</h1>;
-};
 
 function App() {
   return (
